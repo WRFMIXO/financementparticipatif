@@ -1,0 +1,48 @@
+.sidebar {
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0; /* Hauteur de la navbar */
+}
+
+.sidebar ul {
+    position: relative;
+    top: 50px;
+    list-style-type: none;
+    padding: 2rem;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar li a {
+    color: darkorange;
+    text-decoration: none;
+}
+.sidebar li a:hover{
+    color: dodgerblue;
+    font-size: 20px;
+}
+.sidebar h2 {
+    position: fixed;
+    top: 25px;
+    font-size: 40px;
+    color: darkorange;
+}
+.sidebar h5{
+    position: relative;
+    left: -1rem;
+    font-family: 'Segoe UI light';
+    font-size: 15px;
+    color: dimgray;
+}
+#logout{
+    width: 40px;
+    height: 38px;
+    position: relative;
+    left: -2rem;
+}

@@ -1,0 +1,42 @@
+#cardProject{
+    margin: 1.5%;
+    width: 33rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-block: 3rem;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+
+}
+#cardProject:hover{
+    box-shadow: -10px 20px 25px 1px;
+    transition: all ease-in 150ms;
+    color: gray;
+}
+#card-project-footer{
+    text-align: center;
+}
+#actions{
+    width: 170px;
+    margin: 5px;
+    transition: all ease-in 320ms;
+}
+#actions:hover{
+    width: 250px;
+    transition: all ease-in 250ms;
+}
+#cardProjectWaiting{
+    margin: 1%;
+    width: 33rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-block: 3rem;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}

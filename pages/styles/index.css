@@ -1,0 +1,137 @@
+.background-image{
+    background-image: url("../../composants/icones/coins.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 860px;
+    
+}
+#navbar{
+    border-radius: 2.1em;
+    position: relative;
+    top: 2em;
+    padding: 0.31em;
+}
+#navbar-brand{
+    letter-spacing: 0.31em;
+    color: darkorange;
+}
+.nav-link{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#textUpside{
+    justify-content: right;
+    text-align: right;
+    position: relative;
+    right: 5rem;
+    top: 10rem;
+}
+#textUpsideValue{
+    font-size: 70px;
+    color: white;
+}
+#support{
+    font-size: 15px;
+    width: 350px;
+    transition: all ease-in 450ms;
+}
+#support:hover{
+    width: 450px;
+    transition: all ease-in 300ms;
+}
+#footer{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer li{
+    list-style-type: none;
+}
+#inscriptionForm{
+    justify-content: center;
+    text-align: left;
+}
+#inscriptionForm h2 {
+    color: darkorange;
+    font-size: 55px;
+}
+#inscriptionForm label{
+    padding: 5px;
+    color: dodgerblue;
+}
+.link{
+    text-decoration: none;
+}
+#submit{
+    transition: all ease-in 120ms;
+}
+#submit:hover{
+    transition: all ease-in cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 200px;
+}
+#connexionForm h2{
+    color: darkorange;
+    font-size: 55px;
+}
+#connexionForm label{
+    padding: 10px;
+    color: dodgerblue;
+}
+#main #security h3{
+    color: white;
+}
+.card{
+    margin: 1%;
+    width: 33rem;
+    display: inline-block;
+    padding: 1rem;
+    margin-block: 3rem;
+    height: 380px;
+    border: hidden;
+}
+div #card-img-top{
+    width: 90px;
+}
+#secondmenu{
+    border: hidden;
+    height: 500px;
+}
+#secondmenu:hover{
+    box-shadow: -10px 20px 25px 1px;
+    transition: all ease-in 150ms;
+    color: darkorange;
+}
+
+/*Responsive Design*/
+@media screen and (max-width: 1980px){
+    #formulaireInscription{
+        padding: 20px;
+        width: 800px;
+    }
+}
+@media screen and (max-width: 700px){
+    #formulaireInscription{
+        padding: 10px;
+        width: 650px;
+    }
+    #toDo #security{
+        height: 850px;
+    }
+}
+@media screen and (max-width: 400px){
+    #formulaireInscription{
+        padding: 5px;
+        width: 350px;
+    }
+}
+@media screen and (max-width: 360px){
+    #formulaireInscription{
+        padding: 5px;
+        width: 310px;
+    }
+}
